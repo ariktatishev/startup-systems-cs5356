@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" />
+  <script type="text/javascript" src="index.js"></script>
+</head>
+
+<body>
+  <!-- BK PETS section -->
+  <section class="section">
+    <div class="container">
+      <h1 class="title">BK PETS</h1>
+    </div>
+  </section>
+
+  <!-- First content section -->
+  <div class="columns has-background-light p-6 is-vcentered">
+    <!-- Text column -->
+    <div class="column is-4">
+      <div class="title has-text-dark">The best products for your dog</div>
+      <div class="subtitle has-text-dark">
+        Because your dogs deserve to be happy too
+      </div>
+      <button class="button is-dark">Learn more</button>
+    </div>
+    <!-- Image column -->
+    <div class="column is-8" style="display: flex; justify-content: right; align-items: right">
+      <img src="https://nypost.com/wp-content/uploads/sites/2/2021/08/dog-toys.jpg?resize=1536,1024&quality=75&strip=all" style="width: 70%" />
+    </div>
+  </div>
+
+  <!-- Second content section -->
+  <div class="columns p-6 is-vcentered">
+    <!-- Image column -->
+    <div class="column is-half has-text-centered">
+      <img id="product-image" src="https://bulma.io/images/placeholders/256x256.png" style="
+        max-width: 100%;
+        height: 500px;
+        display: inline-block;
+      " alt="Product Image">
+      
+      <!-- Slider controls, positioned below the image within the column -->
+      <div style="text-align: center; margin-top: 0rem;"> <!-- Adjusted for center alignment and spacing -->
+        <button id="previous-button" class="button is-black" style="margin-right: 35rem;">&lt;</button>
+        <button id="next-button" class="button is-black">&gt;</button>
+      </div>
+    </div>
+    <!-- Spacer column -->
+    <div class="column is-eigth"></div>
+    <!-- Text column -->
+    <div id="display-product-content" class="column is-one-third" style="align-self: flex-start;">
+      <div class="content">
+        <h2 class="title"></h2>
+        <h3 class="price"></h3>
+          <p></p>
+          <ul>
+          </ul>
+          <button class="button is-black">Buy now</button>
+      </div>
+    </div>
+  </div> 
+  
+  <!-- Third content section -->
+  <div class="section has-background-light p-6">
+    <div class="container has-text-centered">
+      <!-- Title and subtitle -->
+      <h1 class="title">Your Best Value Proposition</h1>
+      <p class="subtitle">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+        minim veniam,
+      </p>
+
+      <!-- Testimonials -->
+      <div class="columns">
+        <!-- Testimonial 1 -->
+        <div class="column">
+          <figure class="image is-4by3">
+            <img src="https://cdn.shopify.com/s/files/1/1600/8437/files/4_8386c7bb-9da6-485e-bbbb-cae9675abc93_1024x1024.png" style="width: fit-content;" alt="placeholder" />
+          </figure>
+          <p class="has-text-weight-bold">@someoneinqueens</p>
+          <p>my dog loves these shampoos!</p>
+          <p class="has-text-grey">3 weeks ago</p>
+        </div>
+
+        <!-- Testimonial 2 -->
+        <div class="column">
+          <figure class="image is-4by3">
+            <img src="https://hips.hearstapps.com/hmg-prod/images/how-to-bathe-dog-1587137329.jpg?resize=1200:*" style="width: fit-content;" alt="placeholder" />
+          </figure>
+          <p class="has-text-weight-bold">@someoneinbrooklyn</p>
+          <p>my dog hogs the shower now</p>
+          <p class="has-text-grey">2 weeks ago</p>
+        </div>
+
+        <!-- Testimonial 3 -->
+        <div class="column">
+          <figure class="image is-4by3">
+            <img src="https://www.rockymtnk9.com/wp-content/uploads/2022/06/a-cute-dog-is-having-a-shower_t20_ro70Vg.jpg" style="width: fit-content;" alt="placeholder" />
+          </figure>
+          <p class="has-text-weight-bold">@someoneinmanhattan</p>
+          <p>Even I like the dog shampoo</p>
+          <p class="has-text-grey">4 weeks ago</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer has-background-light p-6">
+    <div class="content has-text-centered">
+      <div class="columns is-mobile is-justify-content-space-between">
+        <!-- Left side -->
+        <div class="column is-narrow">
+          <p>
+            <strong>BK PETS</strong><br />
+            © 2010 – 2020<br />
+            <a href="#">Privacy</a> – <a href="#">Terms</a>
+          </p>
+        </div>
+
+        <!-- Right side -->
+        <div class="column is-narrow">
+          <p>
+            <strong>Follow us on</strong><br />
+            <a href="#">Instagram</a><br />
+            <a href="#">Facebook</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

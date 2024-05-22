@@ -1,0 +1,31 @@
+{
+  "name": "project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format:fix": "prettier --write --ignore-path .gitignore .",
+    "test-db": "NODE_ENV=test jasmine --reporter=jasmine-console-reporter --random=false tests/database.test.mjs",
+    "test-login": "NODE_ENV=test jasmine --reporter=jasmine-console-reporter --random=false tests/login.test.mjs",
+    "test-class-code-questions": "NODE_ENV=test jasmine --reporter=jasmine-console-reporter --random=false tests/class-code-questions.test.mjs",
+    "test-class-codes": "NODE_ENV=test jasmine --reporter=jasmine-console-reporter --random=false tests/class-codes.test.mjs"
+  },
+  "dependencies": {
+    "next": "^12.3.4",
+    "next-auth": "^4.24.6",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "supertest": "^6.3.4"
+  },
+  "devDependencies": {
+    "eslint": "8.56.0",
+    "eslint-config-next": "14.1.0",
+    "eslint-config-prettier": "^9.1.0",
+    "jasmine": "^5.1.0",
+    "jasmine-console-reporter": "^3.1.0",
+    "prettier": "^3.2.5"
+  }
+}
